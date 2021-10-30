@@ -9,6 +9,7 @@ body {
 
 .text-center {
   font-size: 18px;
+  align-content: center;
 }
 
 .tittletext {
@@ -702,6 +703,7 @@ a {
 
 .hero-bloc-text {
   font-size: 38px;
+  font-weight: bold;
 }
 
 .hero-bloc-text-sub {
@@ -719,9 +721,8 @@ a {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 20px;
-  margin-left: 80px;
 }
 
 .tight-width-whitespace {
