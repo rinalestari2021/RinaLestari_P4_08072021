@@ -704,6 +704,7 @@ a {
 .hero-bloc-text {
   font-size: 38px;
   font-weight: bold;
+  text-shadow: 2px 0px black;
 }
 
 .hero-bloc-text-sub {
