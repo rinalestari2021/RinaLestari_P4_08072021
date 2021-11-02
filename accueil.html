@@ -30,10 +30,11 @@
 
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
 
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
+    <!--add minify for css -->
 
     <script src="./js/jquery-2.1.0.js"></script>
     <script src="./js/bootstrap.js"></script>
@@ -65,10 +66,7 @@
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
-              <div class="keywords" style="color: #ffff; font-size: 1px">
-                Agence web à lyon, stratégie web, web design, illustrations,
-                design de site web, site web, web, internet, site internet, site
-              </div>
+              <!--takeoff div keywords on logo bcs is not place for keywords-->
               <a class="navbar-brand" href="accueil.html"
                 ><figure>
                   <img
@@ -151,6 +149,7 @@
                   id="cta-hero"
                   >Contact</a
                 >
+                <!--adding text shadow sur text btn contact to put more contrast for accessibility-->
               </div>
             </div>
           </div>
@@ -419,7 +418,7 @@
             </h2>
             <div class="col-sm-12 text-center">
               <a
-                href="accueil.html"
+                href="contact.html"
                 class="
                   btn btn-atomic-tangerine btn-clean btn-rd btn-lg
                   cta-hero
